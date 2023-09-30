@@ -52,7 +52,7 @@ btnhold.addEventListener('click', function () {
     //winner declaration
     if (
         Number(document.querySelector(`#score-${activeplayer}`).textContent) >=
-        10
+        100
     ) {
         document.querySelector('.player-winner').textContent = activeplayer;
         document.querySelector('.winner').classList.toggle('hidden');

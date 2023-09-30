@@ -57,7 +57,7 @@ btnhold.addEventListener('click', function () {
         document.querySelector('.player-winner').textContent = activeplayer;
         document.querySelector('.winner').classList.toggle('hidden');
         overlay.classList.remove('hidden');
-        makeConfetti();
+        document.querySelector('.confetti').classList.toggle('hidden');
     }
     //change the player
     activeplayer = activeplayer === 1 ? 2 : 1;
